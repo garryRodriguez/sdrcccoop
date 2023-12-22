@@ -11,6 +11,9 @@ use App\Http\Controllers\LoanComputationController;
 use App\Http\Controllers\Admin\MembersController;
 use App\Http\Controllers\Admin\PaymentController;
 
+//Livewire
+use App\Livewire\Reports;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -32,6 +35,7 @@ Route::group(['middleware' => 'auth'], function(){
     Route::get('/', [HomeController::class, 'index'])->name('index');
     Route::get('/home', [HomeController::class, 'home'])->name('home');
     Route::get('/addmember', [MemberController::class, 'addMember'])->name('addMember');
+    Route::get('/reports', Reports::class);
 
     Route::group(['prefix' => 'member', 'as' => 'member.'], function(){
         Route::post('/store-member-detail', [MemberController::class, 'store'])->name('store');
