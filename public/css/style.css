@@ -1,0 +1,32 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .navbar {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+
+  .jumbotron {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+  }
+
+  .features {
+    background-color: #ffffff;
+    padding: 80px 0;
+  }
+
+  .feature-item {
+    text-align: center;
+  }
+
+  .footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+  }
