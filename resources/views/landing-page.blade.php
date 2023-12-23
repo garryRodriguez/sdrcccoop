@@ -18,7 +18,7 @@
                     <a class="nav-link" href="{{ route('landingpagesubmenu.loansmenu') }}">Loans</a>    
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Reports</a>
+                    <a class="nav-link" href="{{ route('reports') }}">Reports</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>

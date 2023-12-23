@@ -16,7 +16,7 @@
                     <a class="nav-link" href="<?php echo e(route('landingpagesubmenu.loansmenu'), false); ?>">Loans</a>    
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Reports</a>
+                    <a class="nav-link" href="<?php echo e(route('reports'), false); ?>">Reports</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
